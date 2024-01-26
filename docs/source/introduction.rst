@@ -6,6 +6,6 @@ In an attempt to account to what a cell is "feeling" or to position a cell in co
 
 T cell maturation and thymus morphology
 -----------------
-![T](https://github.com/nadavyayon/organ_axis_tutorial/blob/main/docs/source/T%20cell%20education.PNG)
+![alt text](https://github.com/nadavyayon/organ_axis_tutorial/blob/main/docs/source/T%20cell%20education.PNG)
 
 
