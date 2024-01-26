@@ -12,6 +12,7 @@ Contents
 --------
 
 .. toctree::
-
-   usage
-   api
+   Introduction
+   model construction
+   
+   
