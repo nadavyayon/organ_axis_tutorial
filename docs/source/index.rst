@@ -1,13 +1,8 @@
 Welcome to OragnAxis documentation!
 ===================================
 
-**OrganAxis** (/lu'make/) is a mathematical approach for cPython library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**OrganAxis** is a mathematical approach for construction of a Common Coordinate Framework (CCF) from a set of landmarks
+OrganAxis is iplemented to derive the human thymus cortico-medullary axis here - https://github.com/Teichlab/thymus_spatial_atlas/tree/main
 
 .. note::
 
