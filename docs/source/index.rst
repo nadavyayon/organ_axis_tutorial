@@ -13,6 +13,6 @@ Contents
 
 .. toctree::
    Introduction
-   model construction
+   modelS
    
    
