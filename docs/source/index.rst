@@ -12,7 +12,7 @@ Contents
 --------
 
 .. toctree::
-   introduction
-   model
+introduction
+model
    
    
