@@ -15,15 +15,17 @@ Thymus morphology and T cell maturation
 The thymus gland in a multilobular organ that is responsible for thymocyte or T cell maturation. T cells mature through migration within the compartments of the thymus. initially TCR rearrangement and positive selection occurs in the cortex and cells then complete negative selection in the medulla. However, there are no biological membranes that divide these two morphological components.  
 Hence, In an attempt to capture a CCF for the thymus, we aimed to  mode the major morphological axis of the thymus - from the edge of the cortex to the "deepest" point of the medulla and give a position along this axis to any spot in the thymus. However, as opposed to the mouse thymus and the mouse brain that "looks" the same between different mice, the thymus is highly plastic and can even change in very quickly during a course of days, for example in response to infection. In addition it is highly repetitive.
 
-.. image:: illustration_T.PNG
-  :width: 400
-Image credit: partially created with BioRender
+.. figure:: 
+   :class: inline-images
 
-.. image:: morphology_paed.PNG
-  :width: 400
-Image credit: Human paediatric thymus H&E staining
+   .. image:: illustration_T.PNG
+      :width: 400
+   Image credit: partially created with BioRender
 
-Construction of the cortico-medullary axis
+   .. image:: morphology_paed.PNG
+      :width: 400
+   Image credit: Human paediatric thymus H&E staining
+
 --------------
 account to what a cell is "sensing" or to position a cell in continuous space. The OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure. In the thymus, Since we assume that these migration events are driven by signalling molecules diffusion, we would fit a nonlinear association that is dependent on the distance from nearby morphological structures. 
 
