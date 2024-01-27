@@ -21,9 +21,9 @@ Definition:
 
 1) Let p ∈ R^2 be any point on an HG with spacing - r
 
-2) Let S be an assembly of p points inside an anatomical structure,S∈{Medulla,Cortex,Capsule….}
+2) Let S be an assembly of p points inside an anatomical structure,S ∈ {Medulla,Cortex,Capsule….}
 
-3) dS^((p) )  is the Euclidean distance between point p,and all points that belong to structure S.
+3) dS(p) is defined as the euclidean distances between point p,and all points that belong to structure S.
 
 4) DS,p[i] = is the sorted (by minimal value) series of dS(p), where i is the index of DS,p
 
