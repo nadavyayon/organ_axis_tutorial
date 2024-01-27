@@ -19,5 +19,5 @@ Definition of the spatial sampling resolution
 
 
 .. image:: grid_space_3.PNG
-   :width: 45%
+   :width: 100%
 
