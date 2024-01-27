@@ -35,3 +35,16 @@ Example - DS,p[0] is the distance to the nearest point in structure s to point p
 .. image:: grid_space_3.PNG
    :width: 100%
 
+Mean distance of KNN points to P
+-------------
+Aside from the spatial grid resoution, we also need to define how many KNN points to take to calculate the mean distance of point P from S. 
+For that we can simply define Equation 1:  µK(p) = (i=0 to K-1)∑(DS,p[i]/K)
+
+Constructing a boundary axis
+--------------
+Next, we can calculate the normalised distance from of P betwe
+
+
+
+
+
