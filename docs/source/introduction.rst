@@ -9,5 +9,6 @@ T cell maturation and thymus morphology
 .. image:: T_cell_education.PNG
   :width: 400
   :alt: Alternative text
+Image credit DALL-E
 
 
