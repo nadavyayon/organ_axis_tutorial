@@ -25,7 +25,8 @@ Definition:
 
 3) dS(p) is defined as the euclidean distances between point p, and all points that belong to structure S.
 
-4) DS,p[i] = is the sorted (by minimal value) series of dS(p), where i is the index of DS,p
+4) DS,p[i] = is the sorted (by minimal value) series of dS(p), where i is the index of DS,p.
+
    DS,p[i] ≤ DS,p[i+1]  ,∀ i
 
 Example - DS,p[0] is the distance to the nearest point in structure s to point p
