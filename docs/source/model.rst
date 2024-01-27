@@ -15,7 +15,7 @@ Before we can calculate the distance functions for the axis, we first need to de
 
 Distance function (D) for point (P) and structure (S) 
 ---------------
-Once our grid is set we can define our basic distance function that simply describes the minimal distances of every point P to the nearest nighbours in each defined strtucture S 
+Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest nighbours (K) in strtucture S. In the illustration below, we show the how the minimal dustance is defined to S1 which contains P and S2 which doesn't contain P. 
 
 Definition:
 
