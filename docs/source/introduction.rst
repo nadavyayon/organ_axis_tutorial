@@ -6,11 +6,8 @@ In an attempt to account to what a cell is "feeling" or to position a cell in co
 
 T cell maturation and thymus morphology
 -----------------
-![T cell maturation and thymus morphology](T_cell_education)
-
-<p align="center">
-	<img src="https://github.com/nadavyayon/TissueTag/blob/main/tissueTag_logo.png" width="300">
-</p>
-
+.. image:: T_cell_education.PNG
+  :width: 400
+  :alt: Alternative text
 
 
