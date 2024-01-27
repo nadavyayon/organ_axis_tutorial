@@ -13,9 +13,21 @@ Before we can calculate the distance functions for the axis, we first need to de
    :width: 35%
 
 
-Definition of the spatial sampling resolution
+Distance function (D) for point (P) and structure (S) 
 ---------------
+Once our grid is set we can define our basic distance function that simply describes the minimal distances of every point P to the nearest nighbours in each defined strtucture S 
 
+Definition:
+
+1) Let p ∈ R^2 be any point on an HG with spacing - r
+
+2) Let S be an assembly of p points inside an anatomical structure,S∈{Medulla,Cortex,Capsule….}
+
+3) dS^((p) )  is the Euclidean distance between point p,and all points that belong to structure S.
+
+4) DS,p[i] = is the sorted (by minimal value) series of dS(p), where i is the index of DS,p
+
+Example - DS,p[0] is the distance to the nearest point in structure s to point p
 
 
 .. image:: grid_space_3.PNG
