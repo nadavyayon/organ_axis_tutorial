@@ -9,5 +9,5 @@ Definition of the spatial sampling resolution
 ---------------
 Before we can calculate the distance functions for the axis, we first need to define our spatial sampling resolution. While this might seem wierd it in not a trivial task! each image has it's own pixel size which depends on the microscope's configuration and the experimenter choise. However for the CCF calculation to be robust and consistent, we need to define the spatial sampling resolution and keep it identical throughut the study. in fact, the spatial sampling resolution is independent than the imageing resolution. Practically, we will construct an hexagonal grid (HG) in space with a set resolution and which all our calculations would be based on. It is recommended to set the HG resolution to be sufficiently high to capture the morphological variance needed 
 
-.. image:: grid_space.PNG
-   :width: 100%
+.. image:: grid_space_2.PNG
+   :width: 50%
