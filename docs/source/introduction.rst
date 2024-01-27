@@ -19,11 +19,6 @@ Hence, In an attempt to capture a CCF for the thymus, we aimed to  mode the majo
   :width: 400
 Image credit BioRender
 
-.. image:: T_cell_education.PNG
-  :width: 400
-  :alt: Alternative text
-Image credit DALL-E
-
 Construction of the cortico-medullary axis
 --------------
 account to what a cell is "sensing" or to position a cell in continuous space. The OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure. In the thymus, Since we assume that these migration events are driven by signalling molecules diffusion, we would fit a nonlinear association that is dependent on the distance from nearby morphological structures. 
