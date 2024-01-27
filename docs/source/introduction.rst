@@ -17,7 +17,7 @@ Hence, In an attempt to capture a CCF for the thymus, we aimed to  mode the majo
 
 .. image:: illustration_T.PNG
   :width: 400
-Image credit BioRender
+Image credit: partially created with BioRender
 
 Construction of the cortico-medullary axis
 --------------
