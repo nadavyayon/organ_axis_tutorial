@@ -8,5 +8,9 @@ T cell maturation and thymus morphology
 -----------------
 ![T cell maturation and thymus morphology](T_cell_education)
 
+<p align="center">
+	<img src="https://github.com/nadavyayon/TissueTag/blob/main/tissueTag_logo.png" width="300">
+</p>
+
 
 
