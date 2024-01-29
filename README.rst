@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Github repo for the Read the Docs tutorial of OrganAxis!
 =======================================
-
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://organ-axis-tutorial.readthedocs.io/en/latest/index.html#
