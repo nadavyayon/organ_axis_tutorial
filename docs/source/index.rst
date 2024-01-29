@@ -19,6 +19,6 @@ Contents
 
    introduction
    model
-   moshe
+   Model assembly
    
    
