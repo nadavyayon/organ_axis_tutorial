@@ -17,11 +17,11 @@ Hence, In an attempt to capture a CCF for the thymus, we aimed to  mode the majo
 
 |pic1| |pic2|
 
-.. |pic1| image:: illustration_T.PNG
+.. |pic1| image:: images/illustration_T.PNG
    :width: 45%
 
 
-.. |pic2| image:: morphology_paed.PNG
+.. |pic2| image:: images/morphology_paed.PNG
    :width: 35%
 
 
