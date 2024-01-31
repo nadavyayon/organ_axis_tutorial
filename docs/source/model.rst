@@ -3,14 +3,14 @@ Model construction
 
 Motivation to construct the Cortico-Medullary axis 
 ---------------
-We set to construct a thymus CCF through accounting to the relative position of a cell in continuous space. To overcome the highly variable features of the human thymus, OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure. In a way we are trying to mimic what the cell is "seeing" in space and reduce that information to a unidimnetinal axis. 
+We set to construct a thymus CCF through accounting to the relative position of a cell in continuous space. To overcome the highly variable features of the human thymus, OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure. In a way we are trying to mimic what the cell is "seeing" in space and reduce that information to a unidimensional axis. 
 
 .. image:: images/cell_blind.PNG
    :width: 50%
 
 Obtaining consistent tissue annotations
 ------------ 
-We recognized inconsistencies in the possibility of obtaining tissue annotations from various spatial technologies. For example, Visium is often annotated in the 10X Loupe Browser (https://www.10xgenomics.com/support/software/loupe-browser/latest), which restricts annotations to a 100µm spot-to-spot resolution. For the annotation of IBEX and other imaging-based platforms, users might use tools like the excellent Napari (https://napari.org/stable/), where annotations are done at the pixel level. However, this requires additional scripting to ensure annotations are consistent across datasets and can be difficult to interact with on farms. This incompatibility, along with the need for a simple, open-source tool to annotate tissues at any resolution and within the popular Jupyter notebook environment among bioinformaticians, led us to develop TissueTag (https://github.com/nadavyayon/TissueTag/tree/main) and we would suggest you try it out on your spatial trascriptomics (or any other tissue) data!
+We recognized inconsistencies in the possibility of obtaining tissue annotations from various spatial technologies. For example, Visium is often annotated in the 10X Loupe Browser (https://www.10xgenomics.com/support/software/loupe-browser/latest), which restricts annotations to a 100µm spot-to-spot resolution. For the annotation of IBEX and other imaging-based platforms, users might use tools like the excellent Napari (https://napari.org/stable/), where annotations are done at the pixel level. However, this requires additional scripting to ensure annotations are consistent across datasets and can be difficult to interact with on farms. This incompatibility, along with the need for a simple, open-source tool to annotate tissues at any resolution and within the popular Jupyter notebook environment among bioinformaticians, led us to develop TissueTag (https://github.com/nadavyayon/TissueTag/tree/main) and we would suggest you try it out on your spatial transcriptomics (or any other tissue) data!
 
 Definition of the spatial sampling resolution
 ---------------
@@ -22,7 +22,7 @@ Before we can calculate the distance functions for the axis, we first need to de
 
 Distance function (D) for point (P) and structure (S) 
 ---------------
-Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest nighbours (K) in strtucture S. In the illustration below, we show the how the minimal dustance is defined to S1 which contains P and S2 which doesn't contain P. 
+Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest neighbours (K) in structure S. In the illustration below, we show the how the minimal distance is defined to S1 which contains P and S2 which doesn't contain P. 
 
 Definition:
 
@@ -44,14 +44,14 @@ Example - DS,p[0] is the distance to the nearest point in structure s to point p
 
 Mean distance of KNN points to P
 -------------
-Aside from the spatial grid resoution, we also need to define how many KNN points to take to calculate the mean distance of point P from S. 
+Aside from the spatial grid resolution, we also need to define how many KNN points to take to calculate the mean distance of point P from S. 
 For that we can simply define Equation 1:  µKS(p) = (i=0 to K-1)∑(DS,p[i]/K) 
 
-Constructing the boundary axis and the infulence of K and grid resolution
+Constructing the boundary axis and the influence of K and grid resolution
 --------------
 Next, we can calculate the directional position of a spot from the boundary of two structures by simply subtracting µKS(p) in respect to both structures for a given spot P. 
-This difference is then intrnally normalized to produce a sygmoidal-like function. 
-in the simplified simulated plot below we can see the influence of KNN or grid density on how space is transformed to the axis position. 
+This difference is then intrnally normalised to produce a sigmoidal-like function. 
+In the simplified simulated plot below we can see the influence of KNN or grid density on how space is transformed to the axis position. 
 
 
 
@@ -66,6 +66,7 @@ in the simplified simulated plot below we can see the influence of KNN or grid d
 
 .. image:: images/matrix_K_sp.png
    :width: 100%
+
 
 
 
