@@ -1,4 +1,4 @@
-Welcome to OragnAxis documentation!
+Welcome to OrganAxis documentation!
 ===================================
 
 **OrganAxis** is a mathematical approach for construction of a Common Coordinate Framework (CCF) from a set of landmarks. 
