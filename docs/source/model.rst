@@ -3,7 +3,10 @@ Model construction
 
 Motivation to construct the Cortico-Medullary axis 
 ---------------
-We set to construct a thymus CCF through accounting to the relative position of a cell in continuous space. To overcome the highly variable features of the human thymus, OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure.
+We set to construct a thymus CCF through accounting to the relative position of a cell in continuous space. To overcome the highly variable features of the human thymus, OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure. In a way we are trying to mimic what the cell is "seeing" in space and reduce that information to a unidimnetinal axis. 
+
+.. image:: images/cell_blind.PNG
+   :width: 50%
 
 Obtaining consistent tissue annotations
 ------------ 
@@ -44,11 +47,25 @@ Mean distance of KNN points to P
 Aside from the spatial grid resoution, we also need to define how many KNN points to take to calculate the mean distance of point P from S. 
 For that we can simply define Equation 1:  µKS(p) = (i=0 to K-1)∑(DS,p[i]/K) 
 
-Constructing the boundary axis
+Constructing the boundary axis and the infulence of K and grid resolution
 --------------
 Next, we can calculate the directional position of a spot from the boundary of two structures by simply subtracting µKS(p) in respect to both structures for a given spot P. 
 This difference is then intrnally normalized to produce a sygmoidal-like function. 
+in the simplified simulated plot below we can see the influence of KNN or grid density on how space is transformed to the axis position. 
 
+
+
+.. image:: images/changing_grid.png
+   :width: 50%
+
+
+.. image:: images/changing_k.png
+   :width: 100%
+
+
+
+.. image:: images/matrix_K_sp.png
+   :width: 100%
 
 
 
