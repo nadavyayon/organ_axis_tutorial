@@ -19,10 +19,13 @@ Hence, In an attempt to capture a CCF for the thymus, we aimed to  mode the majo
 
 .. |pic1| image:: images/illustration_T.PNG
    :width: 45%
+image credit: BioRender
+
 
 
 .. |pic2| image:: images/morphology_paed.PNG
    :width: 35%
+image credit: Nadav Yayon
 
 
 
