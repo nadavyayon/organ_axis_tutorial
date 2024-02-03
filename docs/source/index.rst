@@ -17,10 +17,6 @@ OrganAxis is implemented to derive the human thymus cortico-medullary axis here 
 
    This project is under active development.
 
-.. image:: images/egg_thymus.PNG
-   :width: 80%
-image credit: DALL-E
-
 Contents
 --------
 
@@ -29,3 +25,8 @@ Contents
    introduction
    Model formulation
    Model application
+
+
+.. image:: images/egg_thymus.PNG
+   :width: 80%
+image credit: DALL-E
