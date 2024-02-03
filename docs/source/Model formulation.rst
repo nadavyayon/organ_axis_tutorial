@@ -1,15 +1,6 @@
 Model construction
 =====
 
-Motivation to construct the Cortico-Medullary axis 
----------------
-We set to construct a thymus CCF through accounting to the relative position of a cell in continuous space. To overcome the highly variable features of the human thymus, OrganAxis approach aims to account for both local and global influences within and between structures. By deriving a "position" or a score to how much the cell is influenced by its proximity to structure. In a way we are trying to mimic what the cell is "seeing" in space and reduce that information to a unidimensional axis. 
-
-.. image:: images/cell_blind.PNG
-   :width: 50%
-image credit: DALL-E
-
-
 Obtaining consistent tissue annotations
 ------------ 
 We recognized inconsistencies in the possibility of obtaining tissue annotations from various spatial technologies. For example, Visium is often annotated in the 10X Loupe Browser (https://www.10xgenomics.com/support/software/loupe-browser/latest), which restricts annotations to a 100µm spot-to-spot resolution. For the annotation of IBEX and other imaging-based platforms, users might use tools like the excellent Napari (https://napari.org/stable/), where annotations are done at the pixel level. However, this requires additional scripting to ensure annotations are consistent across datasets and can be difficult to interact with on farms. This incompatibility, along with the need for a simple, open-source tool to annotate tissues at any resolution and within the popular Jupyter notebook environment among bioinformaticians, led us to develop TissueTag (https://github.com/nadavyayon/TissueTag/tree/main) and we would suggest you try it out on your spatial transcriptomics (or any other tissue) data!
