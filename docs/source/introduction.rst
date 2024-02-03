@@ -25,7 +25,6 @@ image credit: BioRender
 
 .. |pic2| image:: images/morphology_paed.PNG
    :width: 35%
-image credit: Nadav Yayon
 
 
 
