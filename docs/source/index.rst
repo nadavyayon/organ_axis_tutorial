@@ -27,5 +27,5 @@ Contents
 .. toctree::
 
    introduction
-   model
-   Model assembly
+   Model formulation
+   Model Application
