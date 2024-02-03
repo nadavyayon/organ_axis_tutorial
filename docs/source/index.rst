@@ -28,5 +28,5 @@ Contents
 
 
 .. image:: images/egg_thymus.PNG
-   :width: 80%
+   :width: 50%
 image credit: DALL-E
