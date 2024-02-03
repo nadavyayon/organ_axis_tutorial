@@ -7,6 +7,8 @@ We set to construct a thymus CCF through accounting to the relative position of 
 
 .. image:: images/cell_blind.PNG
    :width: 50%
+image credit: DALL-E
+
 
 Obtaining consistent tissue annotations
 ------------ 
@@ -18,6 +20,8 @@ Before we can calculate the distance functions for the axis, we first need to de
 
 .. image:: images/grid_space_2.PNG
    :width: 35%
+image credit: BioRender
+
 
 
 Distance function (D) for point (P) and structure (S) 
@@ -41,6 +45,7 @@ Example - DS,p[0] is the distance to the nearest point in structure s to point p
 
 .. image:: images/grid_space_3.PNG
    :width: 100%
+image credit: Nadav Yayon
 
 Mean distance of KNN points to P
 -------------
@@ -57,15 +62,18 @@ In the simplified simulated plot below we can see the influence of KNN or grid d
 
 .. image:: images/changing_grid.png
    :width: 50%
+image credit: Nadav Yayon
 
 
 .. image:: images/changing_k.png
    :width: 100%
+image credit: Nadav Yayon
 
 
 
 .. image:: images/matrix_K_sp.png
    :width: 100%
+image credit: Nadav Yayon
 
 
 
