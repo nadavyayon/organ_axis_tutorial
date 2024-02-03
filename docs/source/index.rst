@@ -28,4 +28,4 @@ Contents
 
    introduction
    Model formulation
-   Model Application
+   Model application
