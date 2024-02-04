@@ -8,7 +8,9 @@ We recognized inconsistencies in the possibility of obtaining robust tissue anno
 ---------------
 In addition to the above, I believe it is critical to define the spatial sampling frequency of your CCF and keep constant across samples, conditions and technologies. While this might seem basic it is often ignored! Essentially, each image has its own pixel size which depends on the microscope's configuration and the experimenter's choice. In fact, the spatial sampling resolution is independent of the imaging resolution and can even be higher than the pixel resolution. Practically, we will construct an hexagonal point grid (HPG) in space with a set resolution and which all our calculations would be based on. Like any filter, selecting a spital frequency will affect the ability to capture spatially variable patterns. Thus, the researcher should explore different options and estimate to which degree the spatial variance is represented. 
 
-.. image:: images/grid_illustration.png
+**In this (extreme) example, selecting a low spatial frequency underrepresents the high frequency structures (capsule) but does captures the broad structures (medulla and cortex).**
+
+.. image:: images/0_4_ED4_figure_Organ_Axis_equations_v2_grid_low.jpg
    :width: 60%
 Image credit: partially adapted from BioRender
 
