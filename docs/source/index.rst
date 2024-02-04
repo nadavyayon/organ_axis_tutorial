@@ -30,3 +30,11 @@ Contents
 .. image:: images/egg_thymus.PNG
    :width: 50%
 image credit: DALL-E
+
+
+:Authors:
+    Nadav Yayon, PhD
+
+:Version: 1.0 of 04/02/2024
+:In memory of: `Daniele Muraro <https://www.sanger.ac.uk/person/muraro-daniele/>`_
+
