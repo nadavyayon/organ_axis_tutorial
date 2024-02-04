@@ -42,16 +42,13 @@ Next, we can calculate the directional position of a point P from the boundary o
 
 To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid.  
 
-.. image:: images/supp_axis_params_knn_simulations_02.gif
+.. image:: images/supp_axis_params_knn_simulations-03.png
    :width: 100%
 
-
-.. image:: images/supp_axis_params_knn_simulations_03.gif
+.. image:: images/supp_axis_params_knn_simulations-02.png
    :width: 100%
 
-
-
-.. image:: images/supp_axis_params_knn_simulations_01.gif
+.. image:: images/supp_axis_params_knn_simulations-04.png
    :width: 100%
 
 
