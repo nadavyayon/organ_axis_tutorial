@@ -1,4 +1,4 @@
-Model construction
+Model definition
 =====
 1. Consistent Tissue Annotations
 ------------ 
