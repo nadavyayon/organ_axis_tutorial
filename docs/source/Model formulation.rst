@@ -47,7 +47,7 @@ To study the influence of K or grid density on how space is transformed to the a
 
 
 .. image:: images/supp_axis_params_knn_simulations_03.gif
-   :width: 90%
+   :width: 100%
 
 
 
