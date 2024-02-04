@@ -20,12 +20,15 @@ Once our grid is set we can define our basic distance function (D) that is the m
    :width: 100%
 
 .. image:: images/grid_space_3.PNG
-   :width: 100%
+   :width: 75%
 
 4. Mean distance of KNN points to P
 -------------
-Aside from the spatial grid resolution, we also need to define how many KNN points to take to calculate the mean distance of point P from S. 
-For that we can simply define Equation 1:  µKS(p) = (i=0 to K-1)∑(DS,p[i]/K) 
+From D, we can now calculate the mean distance of point P from S for a set of K nearest neighbours. 
+For that we can simply define: 
+
+.. image:: images//mu_equasion.png
+   :width: 100%
 
 Constructing the boundary axis and the influence of K and grid resolution
 --------------
