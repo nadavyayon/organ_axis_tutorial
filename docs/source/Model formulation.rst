@@ -10,34 +10,19 @@ In addition to the above, I belive it is critical to define the spatial sampling
 
 .. image:: images/grid_illustration.png
    :width: 60%
-image credit: BioRender
+Image credit: partially adapted from BioRender
 
-
-
-Distance function (D) for point (P) and structure (S) 
+3. Definition of distance function (D), spatial location (P), and structure (S) 
 ---------------
 Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest neighbours (K) in structure S. In the illustration below, we show the how the minimal distance is defined to S1 which contains P and S2 which doesn't contain P. 
 
-Definition:
-
-1) Let p ∈ R^2 be any point on an HG with spacing - r
-
-2) Let S be an assembly of p points inside an anatomical structure,S ∈ {Medulla,Cortex,Capsule….}
-
-3) dS(p) is defined as the euclidean distances between point p, and all points that belong to structure S.
-
-4) DS,p[i] = is the sorted (by minimal value) series of dS(p), where i is the index of DS,p.
-
-   DS,p[i] ≤ DS,p[i+1]  ,∀ i
-
-Example - DS,p[0] is the distance to the nearest point in structure s to point p
-
+.. image:: images/D_definition.png
+   :width: 100%
 
 .. image:: images/grid_space_3.PNG
    :width: 100%
-image credit: Nadav Yayon
 
-Mean distance of KNN points to P
+4. Mean distance of KNN points to P
 -------------
 Aside from the spatial grid resolution, we also need to define how many KNN points to take to calculate the mean distance of point P from S. 
 For that we can simply define Equation 1:  µKS(p) = (i=0 to K-1)∑(DS,p[i]/K) 
