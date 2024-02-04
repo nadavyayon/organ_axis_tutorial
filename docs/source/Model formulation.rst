@@ -38,6 +38,7 @@ Next, we can calculate the directional position of a point P from the boundary o
    :width: 100%
 
 6. Exploration and simulation of K and grid resolution on axis function
+--------------
 
 To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid.  
 
