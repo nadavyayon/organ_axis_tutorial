@@ -3,7 +3,7 @@ Welcome to OrganAxis documentation!
 
 **OrganAxis** is a mathematical approach for the construction of a Common Coordinate Framework (CCF) from a set of spatial landmarks.
 
-Key features:
+**Key features:**
 
 * Can be applied to any spatial platform, at any resolution
 * Allows multisample integration of continuous spatial information
