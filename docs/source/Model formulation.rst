@@ -6,7 +6,7 @@ We recognized inconsistencies in the possibility of obtaining robust tissue anno
 
 2. Definition of the spatial sampling resolution
 ---------------
-In addition to the above, I belive it is critical to define the spatial sampling freqwency of your CCF and keep constant across samlpes, conditions and technologies. While this might seem basic it is often idnored! Essentially, each image has its own pixel size which depends on the microscope's configuration and the experimenter's choice. In fact, the spatial sampling resolution is independent of the imaging resolution and can even be higher than the pixel resolution. Practically, we will construct an hexagoanl point grid (HPG) in space with a set resolution and which all our calculations would be based on. Like any filter, selecting a spital frequency will affect the ability to capture spatially variable patterns. Thus, the resercher should explore different options and estimate to chich degree the spatial variance is represented. 
+In addition to the above, I believe it is critical to define the spatial sampling frequency of your CCF and keep constant across samples, conditions and technologies. While this might seem basic it is often ignored! Essentially, each image has its own pixel size which depends on the microscope's configuration and the experimenter's choice. In fact, the spatial sampling resolution is independent of the imaging resolution and can even be higher than the pixel resolution. Practically, we will construct an hexagonal point grid (HPG) in space with a set resolution and which all our calculations would be based on. Like any filter, selecting a spital frequency will affect the ability to capture spatially variable patterns. Thus, the researcher should explore different options and estimate to which degree the spatial variance is represented. 
 
 .. image:: images/grid_illustration.png
    :width: 60%
@@ -14,7 +14,7 @@ Image credit: partially adapted from BioRender
 
 3. Definition of distance function (D), spatial location (P), and structure (S) 
 ---------------
-Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest neighbours (K) in structure S. In the illustration below, we show the how the minimal distance is defined to S1 which contains P and S2 which doesn't contain P. 
+Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest neighbours (K) in structure S. In the illustration below, we show how the minimal distance is defined to S1 which contains P and S2 which doesn't contain P. 
 
 .. image:: images/D_definition.png
    :width: 100%
@@ -40,14 +40,14 @@ Next, we can calculate the directional position of a point P from the boundary o
 6. Exploration and intuition from simulations of K and grid resolution on axis function
 --------------
 
-To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid. For simplicity, we are evaltuatign the relatioship between the linear position along Y and the axis function H
+To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid. For simplicity, we are evaluating the relationship between the linear position along Y and the axis function H
 
-**Changing the K nearest nighbours and keeping the grid constant:** Noise is reduced while H is "flattened" with K. In K=30 we can start seeing edge effiects where the score is deminished by lack of near grid spots.  
+**Changing the K nearest neighbours and keeping the grid constant:** Noise is reduced while H is "flattened" with K. In K=30 we can start seeing edge effects where the score is diminished by lack of near grid spots.  
 
 .. image:: images/supp_axis_params_knn_simulations-04.png
    :width: 100%
 
-**Changing the grid spacing and keeping K constant:** At low grid density relative to K, the dependancy of H is more gradual and edge effects are visible. In the highest grid density H behaves as a full sygmoid and transition if faster around the border.  
+**Changing the grid spacing and keeping K constant:** At low grid density relative to K, the dependency of H is more gradual and edge effects are visible. In the highest grid density H behaves as a full sigmoid and transitions if faster around the border.  
 
 .. image:: images/supp_axis_params_knn_simulations-01.png
    :width: 100%
@@ -56,6 +56,8 @@ To study the influence of K or grid density on how space is transformed to the a
 
 .. image:: images/supp_axis_params_knn_simulations-02.png
    :width: 100%
+
+
 
 
 
