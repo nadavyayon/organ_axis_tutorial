@@ -37,16 +37,22 @@ Next, we can calculate the directional position of a point P from the boundary o
 .. image:: images//H_function.png
    :width: 100%
 
-6. Exploration and simulation of K and grid resolution on axis function
+6. Exploration and intuition from simulations of K and grid resolution on axis function
 --------------
 
-To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid.  
+To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid. For simplicity, we are evaltuatign the relatioship between the linear position along Y and the axis function H
+
+**Changing the K nearest nighbours and keeping the grid constant:** Noise is reduced while H is "flattened" with K. In K=30 we can start seeing edge effiects where the score is deminished by lack of near grid spots.  
 
 .. image:: images/supp_axis_params_knn_simulations-04.png
    :width: 100%
 
+**Changing the grid spacing and keeping K constant:** At low grid density relative to K, the dependancy of H is more gradual and edge effects are visible. In the highest grid density H behaves as a full sygmoid and transition if faster around the border.  
+
 .. image:: images/supp_axis_params_knn_simulations-01.png
    :width: 100%
+
+**Changing both grid spacing and K in a matrix** 
 
 .. image:: images/supp_axis_params_knn_simulations-02.png
    :width: 100%
