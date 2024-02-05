@@ -23,6 +23,7 @@ Contents
 .. toctree::
 
    introduction
+   annotation_and_sampling
    Model formulation
    Model application
 
