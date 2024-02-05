@@ -10,7 +10,7 @@ A Common Coordinate Framework (CCF) is broadly defined as a set of rules that al
 
 However, apart from the mouse brain and perhaps a few 3D human scans in MRI studies, we lack CCFs for any other organ.
 
-Thymus Morphology and T Cell Maturation
+Thymus morphology and T cell maturation
 -----------------
 
 The thymus gland is a multilobular organ that is responsible for thymocyte or T cell maturation. T cells mature through migration within the compartments of the thymus, initially TCR rearrangement and positive selection occurs in the cortex, and cells then complete negative selection in the medulla. However, there are no biological membranes that divide these two morphological components.  
@@ -25,7 +25,7 @@ image credit: BioRender
 .. |pic2| image:: images/morphology_paed.PNG
    :width: 35%
 
-Motivation to Construct the Cortico-Medullary Axis
+Motivation to construct the Cortico-Medullary axis
 ---------------
 We set out to construct a thymus CCF and attempt to capture the relative position of a cell in continuous space. To overcome the highly variable features of the human thymus, the **OrganAxis** approach aims to account for both local and global influences within and between structures. By deriving a score based on a non-linear transformation of Euclidean distance, we can control how much the cell is influenced by its proximity to a structure. In a way, we are trying to mimic what the cell is "seeing" in space and project that environmental feature to a unidimensional axis.
 
