@@ -12,13 +12,13 @@ Once our grid is set we can define our basic distance function (D) that is the m
 
 2. Mean distance of KNN points to P
 -------------
-From D, we can now calculate the mean distance of point P from S for a set of K nearest neighbours
+From D, we can now calculate the mean distance of point P from S for a set of K nearest neighbours. 
 For that we can simply define: 
 
 .. image:: images//mu_equasion.png
    :width: 100%
 
-3. Constructing the boundary-centered axis
+3. Inferring the normalised relative distance to a boundary
 --------------
 Next, we can calculate the directional position of a point P from the boundary of two structures by the normalized difference of µKS1(p) and µKS2(p). 
 
