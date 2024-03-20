@@ -27,8 +27,9 @@ image credit: BioRender
 
 Motivation to construct the Cortico-Medullary axis
 ---------------
-We aimed to construct a thymus CCF model to capture the major morphological axis within the thymus - from the edge of the cortex to the “deepest” point of the medulla and uncover the migration patterns and the “cytokine highways”  in the thymus.
-To overcome the highly variable features of the human thymus, the OrganAxis approach accounts for both local and global influences within and between discrete structures. By deriving a score based on a non-linear transformation of Euclidean distance, we can control how much the position is influenced by its proximity to a structure. In a way, we are trying to mimic what the cell is "seeing" in space and project that environmental feature to a unidimensional axis.
+We aimed to construct a thymus CCF model to capture the essential morphological axis within the thymus—from the cortex edge (capsule) to the deepest part of the medulla. This model aims to reveal migration patterns and identify the 'cytokine highways' within the thymus in higher spatial resolution than discrete annotations permit. 
+To address the highly variable features of the human thymus, our OrganAxis approach considers both local and global influences within and between discrete structures. By deriving a score (or position) from a non-linear transformation of Euclidean distance, we can adjust the extent to which the score is influenced by its proximity to a specific structure. Essentially, we attempt to capture the cell's environment and map that environmental characteristic onto a one-dimensional axis.
+
 
 
 .. image:: images/cell_blind.PNG
