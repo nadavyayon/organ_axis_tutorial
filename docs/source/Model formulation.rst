@@ -4,7 +4,7 @@ Model
 ---------------
 Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest neighbours (K) in structure S. In the illustration below, we show how the minimal distance is defined to S1 which contains P and S2 which doesn't contain P. 
 
-.. image:: images/Supp_axis_equations-02.png
+.. image:: images/Capture_1.PNG
    :width: 100%
 
 .. image:: images/grid_space_3.PNG
