@@ -21,7 +21,7 @@ For that we can define:
 
 3. Inferring the normalised relative distance to a boundary
 --------------
-Next, we can calculate the directional position of a point P from the boundary of two structures by the normalized difference of µKS1(p) and µKS2(p). 
+Subsequently, we can compute the relative (directional) position of any point P with respect to the boundary dividing two structures. This is done through the normalised difference between μS1 and μS2. Function H describes a sigmoid in space, scaling between -1 and 1, with 0 marking the boundary between structures S1 and S2. 
 
 .. image:: images//H_function.png
    :width: 100%
