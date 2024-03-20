@@ -2,7 +2,8 @@ Model
 =====
 1. Definition of distance function (D), spatial location (P), and structure (S) 
 ---------------
-Once our grid is set we can define our basic distance function (D) that is the minimal distances of every point P to nearest neighbours (K) in structure S. In the illustration below, we show how the minimal distance is defined to S1 which contains P and S2 which doesn't contain P. 
+After establishing our grid based on the sampling resolution r (the distance between spots), we can define our fundamental distance function (D). This function calculates the minimal distances from every point P to its K nearest neighbours within a structure (S). The figure below demonstrates how we determine the minimal distance to structures S1, which includes P, and S2, which does not include P.
+
 
 .. image:: images/Capture_1.PNG
    :width: 100%
@@ -12,8 +13,8 @@ Once our grid is set we can define our basic distance function (D) that is the m
 
 2. Mean distance of KNN points to P
 -------------
-From D, we can now calculate the mean distance of point P from S for a set of K nearest neighbours. 
-For that we can simply define: 
+With D defined, we proceed to calculate the mean distance from point P to structure S across a set of K nearest neighbours. To achieve this, we introduce μ, the mean of minimal distances, where K represents the count of nearest neighbours. 
+For that we can define: 
 
 .. image:: images//mu_equasion.png
    :width: 100%
