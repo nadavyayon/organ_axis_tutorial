@@ -1,7 +1,7 @@
 Introduction
 =====
 
-Biological tissues are classically subdivided by discrete compartmental niches predefined through careful examination by histologists. However, the distributions of cells *within* these discrete structures are determined by orchestrated signaling events during development, differentiation, or migration, following autocrine, paracrine, and endocrine signaling.
+Biological tissues are classically subdivided by discrete compartmental niches predefined through careful examination by histologists. However, the distributions of cells within these discrete structures are determined by orchestrated signalling events during development, differentiation, or migration, following autocrine, paracrine, and endocrine signalling.
 
 Common Coordinate Framework
 -----
