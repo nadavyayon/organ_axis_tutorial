@@ -14,8 +14,8 @@ In the OrganAxis approach, we aim to establish a first approximation for mapping
 Thymus morphology and T cell maturation
 -----------------
 
-The thymus gland is a multilobular organ that is responsible for thymocyte or T cell maturation. T cells mature through migration within the compartments of the thymus, initially TCR rearrangement and positive selection occurs in the cortex, and cells then complete negative selection in the medulla. However, there are no biological membranes that divide these two morphological components.  
-Hence, in an attempt to capture a CCF for the thymus, we aimed to model the major morphological axis of the thymus - from the edge of the cortex to the "deepest" point of the medulla and give a position along this axis to any spot in the thymus. However, as opposed to the mouse thymus and the mouse brain that are highly similar between different mice, the thymus is highly plastic and can even change even over the course of days, for example, in response to infection. In addition, it is highly repetitive.
+The thymus gland is a multilobular organ responsible for thymocyte (T cell) maturation. T cells mature through migration within the compartments of the thymus; initially, precursor cells migrate from the peri vascular space (PVS) to the Cortex where TCR rearrangement and positive selection (the ability to bind MHC Class I/II molecules) occurs.  Cells then migrate to the medulla to undergo negative selection (for interaction with self peptides) and where cells eventually leave the thymus to become Naive T cells. 
+Interestingly, there are no biological membranes that divide these two macro morphological compartments and cells are free to roam space during their journey. Hence, we aimed to model the major morphological axis within the thymus - from the edge of the cortex to the “deepest” point of the medulla and uncover the migration patterns and the “cytokine highways”  in the thymus. However, as opposed to the mouse brain, the thymus is highly plastic and can even change even over the course of days, for example, in response to infection.
 
 |pic1| |pic2|
 
