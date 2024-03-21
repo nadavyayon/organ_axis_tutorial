@@ -29,7 +29,7 @@ Subsequently, we can compute the relative (directional) position of any point P 
 Exploration and intuition from simulations of K and grid resolution on axis function
 --------------
 
-To study the influence of K or grid density on how space is transformed to the axis position, we generated simulated data of a grid and random spots in space within that grid. For simplicity, we are evaluating the relationship between the linear position along Y and the axis function H
+To investigate how the number of nearest neighbors (K) or the grid density (r) influences the transformation of space into axis positions, we conducted simulations using a grid with randomly placed spots within that grid. Our analysis primarily focuses on the relationship between the linear position along the Y-axis and the axis function H, distinguishing between two structures.
 
 **Changing the K nearest neighbours and keeping the grid constant:** Noise is reduced while H is "flattened" with K. In K=30 we can start seeing edge effects where the score is diminished by lack of near grid spots.  
 
