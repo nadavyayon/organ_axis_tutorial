@@ -5,10 +5,12 @@ Welcome to OrganAxis documentation!
 
 **Key features:**
 
-* Can be applied to any spatial platform, at any resolution
-* Allows multisample integration of continuous spatial information
-* Allows modelling of linear and non-linear spatial associations to account for local and global spatial environments
-* Hypothesis-driven - you need to know your tissue to derive an axis
+* Derived purely from the reference image. This makes it universally applicable across any spatial platform and at any resolution.
+* Straightforward approach that significantly reduces the risk of creating circular arguments (e.g. is not derived from high-dimensional gene space).
+* Allows multisample “diagonal” integration while preserving continuous spatial information.
+* Allows modelling of linear and non-linear spatial associations to account for local and global spatial environments.
+* Hypothesis-driven: Prior knowledge about the tissue in question is needed to derive a biologically robust and meaningful axis.
+
 
 OrganAxis is implemented to derive the human thymus cortico-medullary axis (CMA) here - https://github.com/Teichlab/thymus_spatial_atlas/tree/main
 
