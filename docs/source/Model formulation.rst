@@ -30,7 +30,7 @@ Subsequently, we can compute the relative (directional) position of any point P 
 Exploration and intuition from simulations of K and grid resolution on axis function
 --------------
 
-To investigate how the number of nearest neighbors (K) or the grid density (r) influences the transformation of space into axis positions, we conducted simulations using a grid with randomly placed spots within that grid. Our analysis primarily focuses on the relationship between the linear position along the Y-axis and the axis function H, distinguishing between two structures.
+To investigate how the number of nearest neighbours (K) or the grid density (r) influences the transformation of space into axis positions, we conducted simulations using a grid with randomly placed spots within that grid. Our analysis primarily focuses on the relationship between the linear position along the Y-axis and the axis function H, distinguishing between two structures.
 
 Changing the K nearest neighbours and keeping the grid constant: With a KNN of 2, H exhibits a "jagged" appearance, likely due to the predominance of values reflecting the simulated grid square pattern. In addition H exhibits a more step-like function shape. Both of these effects are due to the increased influence of the local environment over the global position. In high K=30, H is "flattened" and the values are more continuous but we can start seeing edge effects where the score is diminished by lack of sufficient grid spots at the edges, effectively increasing the average distance to the nearest K spots. 
 
