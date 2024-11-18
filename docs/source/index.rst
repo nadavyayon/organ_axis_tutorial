@@ -37,6 +37,6 @@ image credit: DALL-E
 :Authors:
     Nadav Yayon, PhD
 
-:Version: 1.1 of 12/04/2024
-:In memory of: `Daniele Muraro <https://www.sanger.ac.uk/person/muraro-daniele/>`_
+:Version: 1.2 of 12/11/2024
+In memory of `Daniele Muraro <https://www.sanger.ac.uk/person/muraro-daniele/>`_
 
