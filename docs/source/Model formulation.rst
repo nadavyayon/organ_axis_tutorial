@@ -12,7 +12,7 @@ With D defined, the mean distance from point P to structure S across a set of K 
 .. image:: images/grid_space_3.PNG
    :width: 75%
 
-2. Mean distance of KNN points to P
+2. Mean distance of nearest points of S to P
 -------------
 With D defined, we proceed to calculate the mean distance from point P to structure S across a set of K nearest points. To achieve this, we introduce μ, the mean of minimal distances, where K represents the count of nearest points. 
 For that we can define: 
