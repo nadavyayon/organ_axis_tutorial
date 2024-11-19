@@ -7,7 +7,7 @@ Welcome to OrganAxis documentation!
 
 * Derived purely from the reference image. This makes it universally applicable across any spatial platform and at any resolution.
 * Straightforward approach that significantly reduces the risk of double-dipping (e.g. it is not derived from high-dimensional gene space).
-* Allows multisample “diagonal” integration while preserving continuous spatial information.
+* Allows multi-sample “diagonal” integration while preserving continuous spatial information.
 * Allows modelling of linear and non-linear spatial associations to account for local and global tissue environments, e.g. cellular neighbourhoods and anatomical structures.
 * Hypothesis-driven: Prior knowledge about the tissue in question is needed to derive a biologically robust and meaningful axis.
 
