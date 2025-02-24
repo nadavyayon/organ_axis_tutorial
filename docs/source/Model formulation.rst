@@ -20,7 +20,7 @@ For that we can define:
 .. image:: images//mu_equasion.png
    :width: 100%
 
-3. Inferring the normalised relative to two structures
+3. Inferring the normalised position relative to two structures
 --------------
 Subsequently, we can compute the relative (directional) position of any point P with respect to the distance to two structures. This is done through the normalised difference between μS1 and μS2. Function H describes a sigmoid in space, scaling between -1 and 1, with 0 marking the equidistance between structures S1 and S2. 
 
